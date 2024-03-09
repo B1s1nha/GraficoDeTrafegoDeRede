@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const arquivo = 'registro_sniffer.json';
+const arquivo = '../arquivosJSON/registro_sniffer.json';
 
 fs.readFile(arquivo, 'utf-8', (erro, dados) => {
     if (erro) {
